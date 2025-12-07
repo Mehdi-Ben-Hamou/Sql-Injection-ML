@@ -2,6 +2,7 @@
 
 This project focuses on detecting **SQL Injection attacks** using **Machine Learning** techniques. It identifies malicious SQL queries and prevents database manipulation by classifying queries as legitimate or suspicious. This project uses several machine learning models and tools to achieve high detection accuracy.
 
+---
 ## 🚀 Features
 
 - **Data Preprocessing**: Extracts features from SQL queries using various techniques.
