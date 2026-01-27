@@ -3,7 +3,7 @@
 This project focuses on detecting **SQL Injection attacks** using **Machine Learning** techniques. It identifies malicious SQL queries and prevents database manipulation by classifying queries as legitimate or suspicious. This project uses several machine learning models and tools to achieve high detection accuracy.
 
 ---
-## 🚀 Features
+## Features
 
 - **Data Preprocessing**: Extracts features from SQL queries using various techniques.
 - **Model Training**: Trains machine learning models on a labeled dataset to detect SQL Injection attempts.
@@ -11,7 +11,7 @@ This project focuses on detecting **SQL Injection attacks** using **Machine Lear
 - **Detection**: Classifies SQL queries as legitimate or as SQL injection attempts.
 - **Web Interface**: A simple interface to input queries and get predictions.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Scikit-learn** for machine learning models
@@ -20,7 +20,7 @@ This project focuses on detecting **SQL Injection attacks** using **Machine Lear
 - **Jupyter Notebooks** for model training and evaluation
 - **Pickle** for saving and loading trained models
 
-## 📂 Project Structure
+## Project Structure
 
 - **/sql_injection_Mehdi/**  
   Contains the project files for training and testing the model.
@@ -30,11 +30,11 @@ This project focuses on detecting **SQL Injection attacks** using **Machine Lear
   - `trained_model.pkl`: The trained machine learning model for SQL injection detection (saved using `pickle`).
   - `vectorized.pkl`: TF-IDF vectorizer for transforming SQL queries into numerical features.
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 - **Accuracy**: ~87%
 - **Precision, Recall, F1-Score**: Model performance evaluated using classification metrics.
 - **Algorithms Used**: Logistic Regression.
-## 🛡️ Security Considerations
+## Security Considerations
 
 While machine learning detection models are valuable tools, they should be used in conjunction with **best practices** for SQL injection prevention, such as **parameterized queries** and **input validation**.
